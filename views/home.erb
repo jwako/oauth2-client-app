@@ -1,0 +1,12 @@
+<h1><%= @message %></h1>
+
+<p>ACCESS TOKEN  : <%= session[:access_token] %></p>
+<p>REFRESH TOKEN : <%= session[:refresh_token] %></p>
+
+<hr>
+
+<h2>API Access</h2>
+
+<p><a href="/me">me</a></p>
+
+<p><a href="/refresh">refresh token</a></p>

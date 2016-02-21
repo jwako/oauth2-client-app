@@ -1,0 +1,15 @@
+<h1>Restricted Resource Access</h1>
+
+<h2>GET /api/v1/users/me.json</h2>
+
+<h3>Response</h3>
+
+<%= @message %>
+
+<h3>Data</h3>
+<% @message.each do |k, v| %>
+  <p style="margin: 2px;"><strong><%= k %></strong> : <%= v %></p>
+<% end %>
+
+<hr/>
+<a href="/home">HOME</a>
